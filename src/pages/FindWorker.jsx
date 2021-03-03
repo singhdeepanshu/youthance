@@ -54,17 +54,16 @@ const FindWorker = () => {
                     <input type="text" name="" id=""/>
                 </div>
               </div>
-                <div>
-                    <div>
-                        <label htmlFor="">Start Date</label><br/>
+                <div style={{display:'flex'}}>
+                    <div className="input-container half-width">
+                        <label htmlFor="">Start Date</label><br/><br/>
                         <input type="date" name="" id=""/>
                     </div>
-                    <div>
-                        <label htmlFor="">End Date</label>
+                    <div className="input-container half-width">
+                        <label htmlFor="">End Date</label><br/><br/>
                         <input type="date" name="" id=""/>
                     </div>
                 </div>
-                
 
                 <p className="t-area-p" style={{color:'grey'}}>Additional Information</p>
                 <textarea className="t-area" type="text" placeholder="Describe the responsibilities of the job required Work experience Skills, or education"></textarea>

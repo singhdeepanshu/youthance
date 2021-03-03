@@ -107,7 +107,7 @@ function Faqs() {
                         styles={{
                             bgColor: "white",
                             titleTextColor: "#48482a",
-                            rowTitleColor: "#78789a",
+                            rowTitleColor: "#6543b1",
                             rowTitleTextSize: 'large',
                             rowContentColor: "#48484a",
                             rowContentTextSize: '16px',
