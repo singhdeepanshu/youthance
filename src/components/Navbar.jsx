@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom'
 import { GiHamburgerMenu } from 'react-icons/gi'
 import logo from '../images/logo.png';
 import '../pages/styles.css';
+import FindWorker from '../pages/FindWorker';
 
 export default function Navbar() {
 
@@ -21,7 +22,7 @@ export default function Navbar() {
                 <ul className="nav-links"
                     style={{ transform: open ? "translateX(0px)" : "" }}>
                     {/* <li className="find">Find Workers</li> */}
-                    <Link className="navLink" style={{ textDecoration: 'none', color: '#29364A' }} to="./" > <li>Find Workers</li></Link>
+                    <Link className="navLink" style={{ textDecoration: 'none', color: '#29364A' }} to="findWorker" > <li>Find Workers</li></Link>
                     <Link className="navLink" style={{ textDecoration: 'none', color: '#29364A' }} to="find-work" > <li>Find Work</li></Link>
                     <Link className="navLink" style={{ textDecoration: 'none', color: '#29364A' }} to="about" > <li>About Us</li></Link>
                     <Link className="navLink" to="" style={{ textDecoration: 'none', color: '#29364A' }} to="/post-a-gig">  

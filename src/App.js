@@ -13,6 +13,7 @@ import Last from './components/Last'
 import Patch from './components/Patch'
 import ContactUs from './pages/ContactUs'
 import Faqs from './pages/Faq'
+import FindWorker from './pages/FindWorker'
 
 
 export default function App() {
@@ -20,7 +21,7 @@ export default function App() {
         <div>
             <Navbar />
             <Switch >
-                <Route exact path="/formpage-a" component={FormpageA} />
+                <Route exact path="/findWorker" component={FindWorker} />
                 <Route exact path="/" component={Homepage} />
                 <Route exact path="/formpage-b" component={FormpageB} />
                 <Route exact path="/find-work" component={Findwork} />

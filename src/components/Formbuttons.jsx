@@ -2,7 +2,7 @@ import React from 'react'
 import mile from '../images/Milestone.png'
 export default function Formbuttons() {
     return (
-        <div >
+        <div>
             <img className="milestone" src={mile}></img>
             <div className="pos">
                 <h1>Finish Your requirement</h1>
@@ -20,7 +20,7 @@ export default function Formbuttons() {
               </div>
 
                 <p className="t-area-p" style={{color:'grey'}}>Additional Information</p>
-                <textarea className="t-area" type="text" placeholder="Describe the responsibilities of the job required Work experience Skills, or education"></textarea>
+                  <textarea className="t-area" type="text" placeholder="Describe the responsibilities of the job required Work experience Skills, or education"></textarea>
                 <br></br>
                 <button className="t-area-button">GET A QUOTE </button>
                 </div>
