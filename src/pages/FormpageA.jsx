@@ -1,17 +1,15 @@
-import React, { Component } from 'react'
+import React from 'react'
 import Form from '../components/Form'
 import Cards1 from '../components/Cards1'
 import Slider from '../components/Slider'
 
-export default class FormpageA extends Component {
-    render() {
+const FormpageA = ()=>{
         return (
             <div>
                 <Form/>
                 <Slider/>
                 <Cards1/>
-      
             </div>
         )
-    }
 }
+export default FormpageA

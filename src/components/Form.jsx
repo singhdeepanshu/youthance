@@ -22,18 +22,19 @@ export default function Form() {
             <div>
                 <p></p>
                 <p></p>
-            <p class="input-names">Username</p>
+            <p class="input-names">Your Name</p>
             
             <input className="fill"
              type="text"
-              placeholder="Enter your username">
-              </input>
+              placeholder="Shikhar"/>
+              <p class="input-names">Company Name</p>
+             <input className="fill" type="text" placeholder="Your Company Name" /> 
 
-              <p></p>
-             <p className="input-names">Email</p>
+              <br/>
+             <p className="input-names">Your Work Email</p>
              <input className="fill"
              type="text" 
-             placeholder="Work Email"></input>
+             placeholder="yourname@company.com"></input>
 
 
               <p></p>
@@ -46,8 +47,21 @@ export default function Form() {
              <input className="fill"
              type="text" 
              placeholder="Where are you from"></input>
+
+             <p className="input-names">Industry</p>
+             <select className="fill">
+                 <option className="select">Choose Your Industry</option>
+             </select>
              <br></br>
-             <button className="otp" onClick={() => setModalIsOpen(true)}>Request OTP</button>
+             
+                        <button className="youthButton" onClick={() => setModalIsOpen(true)} > 
+                                Request OTP
+                        <hr className="youth_button_line_or flex"></hr>
+                        
+                        </button>
+                       
+
+             
        </div>
         </div>
         </form>

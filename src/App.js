@@ -14,6 +14,7 @@ import Patch from './components/Patch'
 import ContactUs from './pages/ContactUs'
 import Faqs from './pages/Faq'
 
+
 export default function App() {
     return (
         <div>
@@ -28,6 +29,7 @@ export default function App() {
                 <Route exact path="/find-work-A" component={FindworkA} />
                 <Route exact path="/contact-us" component={ContactUs} />
                 <Route exact path="/faq" component={Faqs} />
+                <Route exact path="/post-a-gig" component={FormpageA} />
             </Switch>
             <Patch />
             <Last />

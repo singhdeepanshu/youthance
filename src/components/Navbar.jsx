@@ -24,10 +24,11 @@ export default function Navbar() {
                     <Link className="navLink" style={{ textDecoration: 'none', color: '#29364A' }} to="./" > <li>Find Workers</li></Link>
                     <Link className="navLink" style={{ textDecoration: 'none', color: '#29364A' }} to="find-work" > <li>Find Work</li></Link>
                     <Link className="navLink" style={{ textDecoration: 'none', color: '#29364A' }} to="about" > <li>About Us</li></Link>
-                    <Link className="navLink" to="" style={{ textDecoration: 'none', color: '#29364A' }} >  
+                    <Link className="navLink" to="" style={{ textDecoration: 'none', color: '#29364A' }} to="/post-a-gig">  
                         <button className="youthButton" > 
                                 POST A GIG 
                         <hr className="youth_button_line_or flex"></hr>
+                        
                         </button>
                     </Link>
      

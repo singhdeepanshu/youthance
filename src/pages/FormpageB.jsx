@@ -1,9 +1,9 @@
-import React, { Component } from 'react'
+import React from 'react'
 import Formbuttons from '../components/Formbuttons'
 import Slider from '../components/Slider'
 import Cards1 from '../components/Cards1'
-export default class FormpageB extends Component {
-    render() {
+
+const FormpageB = () => {
         return (
             <div>
               <Formbuttons/>  
@@ -16,5 +16,5 @@ export default class FormpageB extends Component {
             </div>
             
         )
-    }
 }
+export default FormpageB
