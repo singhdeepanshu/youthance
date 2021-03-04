@@ -136,6 +136,23 @@ input {
     margin-top:10px;
     height:40px;
 }
+@media (max-width:480px) {
+    .youthButton{
+        background: #6543B1;
+        border: none;
+        color: white;
+        text-align: left;
+        position: relative;
+        padding: 10px 30px;
+        border-radius: 5px;
+        font-size: 0.8rem;
+        text-transform: uppercase;
+        margin-right:10px;
+        margin-top:10px;
+        height:40px;
+        margin-left:10%;
+    }
+}
 
 .youthButton_or:hover{
     /* box-shadow: 2px 4px 10px 3px #cacaca; */

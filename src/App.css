@@ -87,12 +87,8 @@ width: 100%;
   cursor: pointer;
 }
 @media(max-width : 768px) {
-  .ham svg::before{
-    display: block
-  }
-  .ham svg::after{
-    display: none;
-    content:"X"
+  .ham {
+    display:block;
   }
   .nav-links{
     position:absolute;
@@ -328,9 +324,7 @@ width: 100%;
     height:570px;
     width:500px;
     z-index: -1;
-    margin-top: 50px;
-    
-    
+    margin-top: 50px;  
   }
   .forms{
     float:right;
@@ -639,7 +633,7 @@ width: 100%;
         width:80%;
       }
 
-      @media(max-width:768px)
+      @media(min-width:481px) and (max-width:768px)    /* CSS for tablets */
       {
         .Intro-div{
           /* overflow-x: hidden; */
@@ -664,15 +658,18 @@ width: 100%;
         }
         .intro{
           margin: 0 auto;
-          font-size: 170%;
+          font-size: 26pt;
           text-align: center;
           width: 80%;
+          margin-left:10%;
+          padding-left:10%;
         }
         .anytime{
           margin: 0 auto;
           text-align: center;
           font-size: 100%;
           font-weight: 400;
+          padding-left:10%;
         }
         .new5{
           margin: 0 auto;
@@ -709,6 +706,77 @@ width: 100%;
        }
        
       }
+      @media (max-width:480px) {            /* CSS for Mobile phones */
+          .Intro-div{
+            /* overflow-x: hidden; */
+            flex-direction: column;
+            align-items: center;
+            width: 100%;
+            margin-top: 30%;
+            margin-left: -7%;
+          }
+          .comingSoon{
+              margin-left: 0px !important;
+          }
+          .branding1 h2 {
+              font-size: 20px !important;
+              margin-top: 20px !important;
+              margin-bottom: 20px !important;
+              margin-left: 17px;
+          }
+          .bus{
+              width: 100% !important;
+              margin-top: 20px !important;
+              text-align: center;
+          }
+          .intro{
+            margin: 0 auto;
+            font-size: 170%;
+            text-align: center;
+            width: 80%;
+          }
+          .anytime{
+            margin-left:10%;
+            text-align: center;
+            font-size: 100%;
+            font-weight: 400;
+          }
+          .new5{
+            margin: 0 auto;
+            width: 13%;
+            border: 3px solid #6543B1 ;
+            margin-top: 5%;
+            
+          }
+          .introp{
+            margin: 0 auto;
+            font-size: 110%;
+            text-align: center;
+            width: 78%;
+            margin-top: 5%;
+            margin-left:16%;
+          }
+          .watch{
+            
+            margin-top: 12%;
+            width: 85%;
+            margin-bottom: 5%;
+            display: none;
+            
+          } 
+          .getstarted{
+            margin: 0 auto;
+            margin-top: 5%;
+           
+            /* size: 30%; */
+          }
+         .branding1{
+             /* display: none; */
+             background-color: transparent;
+             padding-left: 40px;;
+         }
+         
+        }
       /* Intro component End */
 
 
@@ -987,7 +1055,7 @@ color: #042657;
 .howz:hover{
  color: #FD581F;
 }
-@media (max-width:768px) {
+@media (min-width:481px) and (max-width:768px) {
   .how-list li{
     color:#FD581F;
   }
