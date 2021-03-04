@@ -47,10 +47,10 @@ export default function Last() {
             <div className="last4">
                 <h2 className="icon-head">We are social</h2>
                 <br></br>
-                <h1 style={{ marginTop: "-7%" }} className="icons"> <FaInstagramSquare className="fainsta" style={{ color: "#D2D4D6", fontSize: "110%" }} />&nbsp;&nbsp;
-                                           <FaFacebookSquare className="fainsta" style={{ color: "#D2D4D6", fontSize: "110%" }} /> &nbsp;
-                                           <FaLinkedin className="fainsta" style={{ color: "#D2D4D6", fontSize: "110%" }} /> &nbsp;
-                                           <FaTwitter className="fainsta" style={{ color: "#D2D4D6", fontSize: "110%" }} />&nbsp;</h1>
+                <h1 style={{ marginTop: "-7%" }} className="icons"> <FaInstagramSquare id="font-icons" className="fainsta" style={{ color: "#D2D4D6", fontSize: "110%" }} />&nbsp;&nbsp;
+                                           <FaFacebookSquare className="fainsta" id="font-icons" style={{ color: "#D2D4D6", fontSize: "110%" }} /> &nbsp;
+                                           <FaLinkedin className="fainsta" id="font-icons" style={{ color: "#D2D4D6", fontSize: "110%" }} /> &nbsp;
+                                           <FaTwitter className="fainsta" id="font-icons" style={{ color: "#D2D4D6", fontSize: "110%" }} />&nbsp;</h1>
 
                 <h2>Download</h2>
                 {/* <img style={{ marginTop: "-7%", width: "50%" }} src={gp}></img> */}
