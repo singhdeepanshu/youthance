@@ -87,8 +87,12 @@ width: 100%;
   cursor: pointer;
 }
 @media(max-width : 768px) {
-  .ham{
-    display: block;
+  .ham svg::before{
+    display: block
+  }
+  .ham svg::after{
+    display: none;
+    content:"X"
   }
   .nav-links{
     position:absolute;
@@ -124,7 +128,7 @@ width: 100%;
     top: 70%;
     width: 36px;
     height: 2px;
-    background: #fff;
+    /* background: #fff;    */
     border: none;
   }
   .find{
@@ -162,9 +166,7 @@ width: 100%;
  width: 70%;
  margin-left: -5%;
 }
-.last1 h3{
 
-}
 .last1 h2, .last2 h2, .last3 h2, .last4 h2{
   font-weight: 500;
   color: #042657;
@@ -214,7 +216,7 @@ width: 100%;
   .p-link a {
     color:#29364A;
     text-decoration: none;
-    
+    font-size: 0.875em;
 
   }
 
@@ -971,6 +973,11 @@ color: #042657;
 .howz:hover{
  color: #FD581F;
 }
+@media (max-width:768px) {
+  .how-list li{
+    color:#FD581F;
+  }
+}
 .how-p{
   margin-bottom:40px;
   color: grey;
@@ -1119,7 +1126,7 @@ box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
   border: 1px solid rgb(192, 188, 188);
 }
 .t-area-button{
- background-color: #662360; 
+ background-color: #6543B1; 
       border: none;
       color: white;
       padding: 8px 20px;

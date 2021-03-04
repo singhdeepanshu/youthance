@@ -79,6 +79,7 @@
     width: 50% !important;
     line-height: 0;
     padding-bottom:5px;
+    margin-left:10px;
 }
 
 .full-width{
@@ -86,9 +87,18 @@
 }
 
 label{
-    color:#757E8F;
+    color:#dcdcdc;
     font-size: 14px;
     font-weight:550;
+}
+input {
+    color:#6543B1;
+    border: 2px solid #dcdcdc;
+    border-radius: 5px;
+}
+
+.s1 .align h1 {
+    color:#6543B1;
 }
 
 .input-container{
@@ -124,6 +134,7 @@ label{
     text-transform: uppercase;
     margin-right:10px;
     margin-top:10px;
+    height:40px;
 }
 
 .youthButton_or:hover{
